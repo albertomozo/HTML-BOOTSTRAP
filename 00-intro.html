@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Intro</title>
+   <!--  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+        <h1>Bootstrap</h1>
+        <p>Bootstrap fue desarrollado por Mark Otto y Jacob Thornton en Twitter, y lanzado como un producto de código abierto en agosto de 2011 en GitHub.</p> 
+      </div>
+      
+      <div class="container">
+        <div class="row">
+        
+            <h2>¿Que es Bootstrap?</h2>
+            <ul>
+                <li>Bootstrap es un "front-end framework" libre para el desarrollo web más rápido y más fácil</li>
+                <li>Bootstrap incluye plantillas de diseño basadas en HTML y CSS para tipografía, formas, botones, tablas de navegación, modales, carruseles de imágenes y muchas otras, así como complementos opcionales de JavaScript</li>
+                <li>Bootstrap también le da la posibilidad de crear fácilmente diseños responsives</li>
+            </ul>
+      
+          <h2>¿Por qué utilizar Bootstrap?</h2>
+          <ul>
+          <li>Fácil de usar: Cualquier persona con conocimientos básicos acaba de HTML y CSS puede comenzar a usar Bootstrap</li>
+          <li>Características responsive: CSS responsive de Bootstrap ajusta a los teléfonos, tabletas y ordenadores de sobremesa</li>
+          <li>Mobile-primera aproximación: En Bootstrap, estilos móviles primero son parte del marco básico</li>
+          <li>Compatibilidad del navegador: Bootstrap es compatible con todos los navegadores modernos (Chrome, Firefox, Internet Explorer, Safari y Opera)</li>
+          </ul>
+          
+      
+          <h2 style="width: 100%">¿Dónde obtener Bootstrap?</h2>
+          <ul>
+          <li>Descargar Bootstrap de getbootstrap.com</li>
+          <li>Incluir Bootstrap de un CDN(Content Delivery Network)</li>
+          </ul>
+      
+        </div>
+        
+        <br>
+        
+        <div class="row">
+            <h2>¿Cómo funciona?</h2>
+            <p>El sistema de cuadrícula de Bootstrap utiliza una serie de contenedores, filas y columnas para diseñar y alinear el contenido. Es construido con flexbox y es totalmente responsive. </p>
+            <ul>
+            <li>Los contenedores proporcionan un medio para centrar el contenido de su sitio. Utilice .container para ancho fijo o .container-fluid para todo el ancho.</li>
+            <li>Las filas son grupos horizontales de columnas que aseguran que sus columnas estén alineadas correctamente. Utilizamos el método de margen negativo en .row para asegurar que todo su contenido esté alineado correctamente por el lado izquierdo.</li>
+          <li>El contenido debe colocarse dentro de columnas, y sólo las columnas pueden ser hijos inmediatos de las filas.</li>
+          <li>Gracias a flexbox, las columnas de cuadrícula sin un ancho de conjunto automáticamente se mostrarán con iguales anchos. Por ejemplo, cuatro instancias de .col-sm serán automáticamente cada 25% de ancho para puntos de interrupción pequeños.</li>
+          <li>Las clases de columnas indican el número de columnas que desea utilizar de las 12 posibles por fila. Por lo tanto, si desea tres columnas de igual ancho, puede utilizar .col-sm-4.</li>
+          <li>Los anchos de columna se establecen en porcentajes, por lo que siempre son fluidos y dimensionados en relación con su elemento padre.</li>
+          <li>Las columnas tienen relleno horizontal para crear los canales entre las columnas individuales, sin embargo, puede quitar el margen de las filas y el relleno de las columnas con .no-canaletas en el.</li>
+          <li>Hay seis niveles de rejilla, uno para cada punto de interrupción sensible: todos los puntos de interrupción (extra pequeño), pequeño, medio, grande y extra grande.</li>
+          <li>Los niveles de cuadrícula se basan en anchos mínimos, lo que significa que se aplican a ese nivel y todos los que están por encima (por ejemplo, .col-sm-4 se aplican a dispositivos pequeños, medianos, grandes y extra grandes).</li>
+          <li>Puede utilizar clases de cuadrícula predefinidas o mezclas Sass para obtener más marcado semántico.</li>
+      
+        </ul>
+        
+        <h2>Opciones de la cuadrícula</h2>
+        <div class="table-responsive">
+            <table>
+           <thead>
+           <tr>
+           <th>Breakpoint</th>
+           <th>Class infix</th>
+           <th>Dimensions</th>
+           </tr>
+           </thead>
+           <tbody>
+           <tr>
+           <td>Extra small</td>
+           <td><em>None</em></td>
+           <td>&lt;576px</td>
+           </tr>
+           <tr>
+           <td>Small</td>
+           <td><code>sm</code></td>
+           <td>≥576px</td>
+           </tr>
+           <tr>
+           <td>Medium</td>
+           <td><code>md</code></td>
+           <td>≥768px</td>
+           </tr>
+           <tr>
+           <td>Large</td>
+           <td><code>lg</code></td>
+           <td>≥992px</td>
+           </tr>
+           <tr>
+           <td>Extra large</td>
+           <td><code>xl</code></td>
+           <td>≥1200px</td>
+           </tr>
+           <tr>
+           <td>Extra extra large</td>
+           <td><code>xxl</code></td>
+           <td>≥1400px</td>
+           </tr>
+           </tbody>
+           </table>
+           </div>
+        </div>
+        
+        <br><br>
+      </div>
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
